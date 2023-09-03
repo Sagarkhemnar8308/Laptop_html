@@ -1,0 +1,146 @@
+.a {
+    background-image: url("./Images/sagar.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.b {
+    height: 700px;
+    width: 500px;
+    background-image: url("Images/light.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+}
+
+.d {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 100px;
+
+}
+
+.e {
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 50px;
+    width: 300px;
+    font-weight: bold;
+}
+
+.f {
+    margin-left: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 50px;
+    width: 300px;
+    font-weight: bold;
+}
+.g:hover{
+    background-color: orangered;
+    border: none;
+}
+.g {
+    margin-top: 30px;
+    border: 2px solid rgb(40, 40, 149);
+    background-color:orangered;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.h:hover{
+    color: red;
+}
+.h {
+    color: white;
+    margin-right: 10rem;
+    text-decoration: none;
+}
+
+.i{
+    position: relative;
+    top: 40px;
+    margin-right: 300px;
+    width: 150px;
+    color: azure;
+}
+
+.j{
+    
+    position: relative;
+    bottom: 40px;
+    margin-left: 300px;
+    width: 150px;
+    color: azure;
+}
+
+.k {
+    color: azure;
+}
+
+.m{
+    height: 40px;
+    width: 40px;
+}
+.l{
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid white;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+}
+.n{
+    color: white;
+    font-size: 20px;
+}
+.o{
+   width: 30px;
+    text-decoration: underline;
+}
+.p{
+    position: relative;
+    right: 45px;
+    border: none;
+    border-radius: 30px;
+}
+
+.q{
+    display: flex;
+    justify-content: center;
+    height:70px ;
+    width:220px ;
+}
+.r{
+    font-size: 20px;
+    color: white;
+}
+.s{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width:320px) {
+    .a{
+        display: block;
+    }
+}
